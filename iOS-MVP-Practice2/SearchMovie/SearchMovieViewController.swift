@@ -7,8 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class SearchMovieViewController: UIViewController {
+    @IBOutlet weak var movieSearchBar: UISearchBar!
+    @IBOutlet weak var resultTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
